@@ -56,5 +56,57 @@ span {
     margin-left: 16px;
 }
 
+@media(max-width: 1000px) {
+    article {
+        top: -105px;
+        margin-left: 280px;
+    }
+
+    #image_header {
+        margin-top: -105px;
+        margin-left: 40px;
+        width: 210px;
+    }
+    
+    #profile_photo {
+        width: inherit;
+        height: 210px;
+    }
+
+    nav {
+        height: 120px;
+    }
+
+    h1 {
+        font-size: calc(2em*0.7);
+    }
+}
+
+@media(max-width: 800px) {
+    article {
+        top: 0px;
+        margin-left: 40px;
+    }
+
+    #image_header {
+        margin-top: -75px;
+        margin-left: 30px;
+        width: 150px;
+    }
+
+    #profile_photo {
+        width: inherit;
+        height: 150px;
+    }
+
+    nav {
+        height: 90px;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+}
+
 
 
