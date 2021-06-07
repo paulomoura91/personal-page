@@ -1,0 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: flex-end;
+    height: 180px;
+}
+
+.language {
+    margin: 1% 2%;
+}
+.language:hover {
+    cursor: pointer;
+}
+
+#image_header {
+    position: relative;
+    margin-top: -150px;
+    margin-left: 60px;
+    width: 300px;
+}
+
+#profile_photo {
+    width: inherit;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    position: relative;
+    top: -150px;
+    margin-left: 400px;
+    margin-right: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: goldenrod;
+}
+
+span {
+    margin-left: 16px;
+}
+
+
+
