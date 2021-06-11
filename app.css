@@ -7,10 +7,11 @@ body {
 }
 
 nav {
-    background-color: palegoldenrod;
+    background-color: #5EC29D;
     display: flex;
     justify-content: flex-end;
     height: 180px;
+    color: #BFF4E1;
 }
 
 .language {
@@ -89,11 +90,17 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: goldenrod;
+    background-color: #37735D;
+    color: white;
 }
 
 span {
     margin-left: 16px;
+}
+
+article > section {
+    border-bottom: 1px solid #5A7369;
+    margin-bottom: 30px;
 }
 
 @media(max-width: 1000px) {
