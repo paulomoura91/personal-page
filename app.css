@@ -115,7 +115,6 @@ article > section {
 
     #image_header {
         margin-top: -105px;
-        margin-left: 40px;
         width: 210px;
     }
     
@@ -124,13 +123,13 @@ article > section {
         height: 210px;
     }
 
-    nav {
-        height: 120px;
+    h2 {
+        margin-left: 40px;
     }
 
-    h1 {
-        font-size: calc(2em*0.7);
-    }
+    nav {
+        height: 120px;
+    }    
 }
 
 @media(max-width: 800px) {
@@ -145,7 +144,6 @@ article > section {
 
     #image_header {
         margin-top: -75px;
-        margin-left: 30px;
         width: 150px;
     }
 
@@ -159,7 +157,12 @@ article > section {
     }
 
     h1 {
-        font-size: 1em;
+        font-size: calc(2em*0.7);
+    }
+
+    h2 {
+        font-size: calc(1.5em*0.7);
+        margin-left: 30px;
     }
 
     #playstore {
@@ -180,6 +183,13 @@ article > section {
     #github {
         height: 80%;
         width: 80%;
+    }
+}
+
+@media(max-width: 500px) {
+    h2 {
+        margin-left: 0px;
+        text-align: center;
     }
 }
 
