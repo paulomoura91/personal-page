@@ -58,7 +58,6 @@ h2 {
     margin-left: 60px;
 }
 
-
 #playstore {
     height: 100px;
     width: 200px;
@@ -81,9 +80,20 @@ a {
     width: 50px;
 }
 
+#github {
+    height: 64px;
+    width: 64px;
+}
+
 #email {
     height: 40px;
     width: 40px;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 footer {
@@ -181,8 +191,8 @@ article > section {
     }
 
     #github {
-        height: 80%;
-        width: 80%;
+        height: 50px;
+        width: 50px;
     }
 }
 
@@ -190,6 +200,9 @@ article > section {
     h2 {
         margin-left: 0px;
         text-align: center;
+    }
+    #fipe_title {
+        display: block;
     }
 }
 
