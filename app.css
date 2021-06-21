@@ -16,6 +16,7 @@ nav {
 
 .language {
     margin: 1% 2%;
+    visibility: hidden;
 }
 .language:hover {
     cursor: pointer;
